@@ -1,7 +1,5 @@
 <?php
 session_start();
-
-// Simulamos el producto agregado al carrito desde sesión (puedes adaptar esto a tu lógica actual)
 $producto = $_SESSION['producto'] ?? 'Producto no definido';
 $precio = $_SESSION['precio'] ?? '0.00';
 ?>

@@ -36,7 +36,7 @@ if (!isset($_SESSION['usuario'])) {
   const onLoad = function(){
     const script = document.createElement("script");
     script.src = "https://www.chatbase.co/embed.min.js";
-    script.id = "TMVGyL6oce8olDjTkYxVO";  // Tu ID único
+    script.id = "TMVGyL6oce8olDjTkYxVO";  // ID unico de el chatbot
     script.domain = "www.chatbase.co";
     document.body.appendChild(script);
   };
@@ -82,7 +82,6 @@ if (!isset($_SESSION['usuario'])) {
 
     <div class="offcanvas-body d-flex flex-column justify-content-between">
       <div>
-        <!-- Usuario + Nombre (MOVIDO AQUÍ) -->
 <div class="offcanvas-icons mb-4">
   <div class="user-navbar d-flex align-items-center">
     <img src="img/usuario.png" alt="usuario">

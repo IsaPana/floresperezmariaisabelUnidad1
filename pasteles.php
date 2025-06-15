@@ -25,23 +25,17 @@ if (!isset($_SESSION['usuario'])) {
     </a>
 
     <div class="navbar-icons-search d-flex align-items-center">
-      <!-- Ícono Carrito -->
       <a href="compras.php"><img src="img/carro.png" alt="carro" class="mx-2"></a>
-
       <!-- Formulario Búsqueda -->
       <form action="buscar.php" method="GET" class="d-flex align-items-center">
         <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar" name="q">
         <button class="btn btn-outline-success" type="submit">Buscar</button>
       </form>
-
-      <!-- Botón Hamburguesa -->
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
   </div>
-
-  <!-- Offcanvas Menú -->
   <div class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
@@ -50,7 +44,6 @@ if (!isset($_SESSION['usuario'])) {
 
     <div class="offcanvas-body d-flex flex-column justify-content-between">
       <div>
-        <!-- Usuario + Nombre (MOVIDO AQUÍ) -->
 <div class="offcanvas-icons mb-4">
   <div class="user-navbar d-flex align-items-center">
     <img src="img/usuario.png" alt="usuario">
@@ -59,8 +52,6 @@ if (!isset($_SESSION['usuario'])) {
     </a>
   </div>
 </div>
-
-
         <!-- Menú Navegación -->
         <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
           <li class="nav-item dropdown">

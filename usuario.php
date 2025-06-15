@@ -81,10 +81,8 @@ if ($result->num_rows > 0) {
 
     <div class="offcanvas-body d-flex flex-column justify-content-between">
       <div>
-        <!-- Usuario + Nombre (MOVIDO AQUÍ) -->
 <div class="offcanvas-icons mb-4">
 </div>
-
         <!-- Menú Navegación -->
         <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
           <li class="nav-item dropdown">
