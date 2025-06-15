@@ -45,6 +45,7 @@ $precio = $_SESSION['precio'] ?? '0.00';
   </style>
 </head>
 <body>
+  <!-- Prueba GIt -->
 
 <div class="formulario-envio">
   <h2>Confirmar Pedido</h2>
