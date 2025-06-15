@@ -1,0 +1,82 @@
+body {
+    background-image: url('../img/fondo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#contenedor {
+    margin-top: 1px; 
+}
+
+/* Ajustes generales de la card */
+#contenedorcentrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+
+#login input[type="text"],
+#login input[type="email"],
+#login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #d4af37;
+    border-radius: 20px;
+}
+
+/* Botón de registro */
+#login button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: transparent;
+    border: 2px solid #d4af37;
+    color: #000;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Enlace debajo del botón */
+#login a {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    #contenedor {
+        margin-top: 80px;
+    }
+    #login {
+        padding: 30px;
+    }
+}
+/* reCAPTCHA */
+.captcha-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.g-recaptcha {
+  transform: scale(0.85);
+  transform-origin: top center;
+}
